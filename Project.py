@@ -27,16 +27,6 @@ def cell_type(contour):
 # Read input image
 input_img = cv.imread('SC4.jpg')
 
-'''
-Good images:
-    BC.jpg
-    BC2.jpg
-    SC2.jpg
-    SC4.jpg
-    SC6.jpg
-    SC8.jpg
-    
-'''
 
 # Convert it to HSV Color Map
 hsv_img = cv.cvtColor(input_img, cv.COLOR_BGR2HSV)
